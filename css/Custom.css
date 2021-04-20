@@ -7,36 +7,25 @@
     border-image-slice: 1;
     z-index: 2;
 }
-.bg-img {
-    padding-bottom: 56.25%;
+.w-80{width:80%!important;}
+.bg-img {padding-bottom: 56.25%;}
+.bg-transparent {background-color: transparent;}
+.bg-black {background-color: #000;}
+.bg-black-3 {background: linear-gradient(90deg, rgba(0,0,0,.8) 50%, rgba(0,0,0,.0) 100%);}
+.fist-word-box {
+    padding: 11% 6% 9%;
+    background: url(../images/text-box-bg1.png)no-repeat center/cover;
 }
-.bg-transparent {
-    background-color: transparent;
-}
-.bg-black {
-    background-color: #000;
-}
-.bg-black-3 {
-    background: linear-gradient(90deg, rgba(0,0,0,.8) 50%, rgba(0,0,0,.0) 100%);
-}
-.img-1 {
-    background: linear-gradient(180deg, transparent 80%, #000 100%), url(../images/homepage_1.jpg)no-repeat left/cover;
-}
-.img-2 {
-    background: linear-gradient(180deg, #000 0%, transparent 10%, transparent 80%, #000 100%), url(../images/bgpage_2.jpg)no-repeat center/cover;
-}
-.img-fishing {
-    background: linear-gradient(180deg, #000 0%, transparent 10%, transparent 80%, #000 100%), url(../images/bgpage_3.jpg)no-repeat center/cover;
-}
+.img-1 {background: linear-gradient(180deg, transparent 80%, #000 100%), url(../images/homepage_1.jpg)no-repeat left/cover;}
+.img-2 {background: linear-gradient(180deg, #000 0%, transparent 10%, transparent 80%, #000 100%), url(../images/bgpage_2.jpg)no-repeat center/cover;}
+.img-fishing {background: linear-gradient(180deg, #000 0%, transparent 10%, transparent 80%, #000 100%), url(../images/bgpage_3.jpg)no-repeat center/cover;}
 .word-box {
     top: 0;
     bottom: 0;
     left: 0;
     right: 0;
 }
-.text-box {
-    z-index: 1;
-}
+.text-box {z-index: 1;}
 .game-card,
 .service-card {
     -webkit-box-flex: 0;
@@ -55,9 +44,7 @@
     border-radius: 5px;
     z-index: -1;
 }
-.fifthpg {
-    background: linear-gradient(180deg, #B67C24 0%, #F4D97A 30%, #F4D97A 60%, #B67C24 90% , #000 100%);
-}
+.fifthpg {background: linear-gradient(180deg, #B67C24 0%, #F4D97A 30%, #F4D97A 60%, #B67C24 90% , #000 100%);}
 .fifthpg:before {
     content: '';
     position: absolute;
@@ -74,9 +61,7 @@
     color: #fff;
     text-shadow: 1px 1px 0px #000, 0px 1px 0px #000, -1px 1px 0px #000, -1px 0px 0px #000, -1px -1px 0px #000, 0px -1px 0px #000, 1px -1px 0px #000, 1px 0px 0px #000;
 }
-.btn-gold:hover {
-    color: #fff;
-}
+.btn-gold:hover {color: #fff;}
 .btn-outline-gold {
     color: #F4D97A;
     border-color: #F4D97A;
@@ -91,19 +76,15 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
-.text-yellow {
-    color: #F4D97A !important;
-}
-.FarAndNear {
-    animation: FarAndNear .8s ease infinite  alternate ;
-}
+.text-yellow {color: #F4D97A !important;}
+.FarAndNear {animation: FarAndNear .8s ease infinite  alternate ;}
 @media screen and (max-width: 500px) {
     .bg-img {
         padding: 0;
         height: 100vh;
     }
     .h3 {
-        font-size: 1rem;
+        font-size: .85rem;
     }
     .w-ph-100 {
         width: 100% !important;
@@ -128,9 +109,8 @@
         -ms-flex-align: flex-end!important;
         align-items: flex-end!important;
     }
-    .bg-ph {
-        background: linear-gradient(180deg, transparent 0%, #000 50%);
-    }
+    .fist-word-box {padding: 25% 15% 20%;}
+    .p-ph-0{padding: 0;}
 }
 @keyframes FarAndNear {
     0% {
