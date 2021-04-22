@@ -13,7 +13,7 @@
 .bg-black {background-color: #000;}
 .bg-black-3 {background: linear-gradient(90deg, rgba(0,0,0,.8) 50%, rgba(0,0,0,.0) 100%);}
 .fist-word-box {
-    padding: 11% 6% 9%;
+    padding: 18% 6% 15%;
     background: url(../images/text-box-bg1.png)no-repeat center/cover;
 }
 .img-1 {background: linear-gradient(180deg, transparent 80%, #000 100%), url(../images/homepage_1.jpg)no-repeat left/cover;}
